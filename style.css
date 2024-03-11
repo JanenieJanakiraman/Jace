@@ -1,0 +1,137 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .form {
+    margin-top: 30px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0088cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup a {
+    color: #0088cc;
+    text-decoration: none;
+  }
+  
+  .signup a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #0088cc;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;  
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+}
+
+nav ul li a {
+color: #ffffff;
+text-decoration: none;
+}
+
+.chatbox {
+height: 300px;
+overflow-y: auto;
+border: 1px solid #ccc;
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.form {
+display: flex;
+}
+
+input[type="text"] {
+flex-grow: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+button[type="submit"] {
+padding: 10px;
+background-color: #0088cc;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.welcome {
+text-align: center;
+margin-top: 30px;
+}
+
+/* Responsive styles */
+
+.container {
+padding: 20px;
+margin: 20px;
+}
+
+.title {
+margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+max-width: 100%;
+margin: 0;
+padding: 10px;
+}
+
+.form input,
+.form button {
+font-size: 14px;
+}
+}
